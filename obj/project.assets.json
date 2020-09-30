@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "weather-icons/2.0.10": {
+        "type": "package"
+      },
+      "WeatherNet/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/WeatherNet.dll": {}
+        },
+        "runtime": {
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/WeatherNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "weather-icons/2.0.10": {
+      "sha512": "cNh++85qP5pDvY5T7ijtBaCbtBtPtQBZRc4savoaFY3V4CvLYEEJgMh9Z6AKpUIozchhpOmdtmJK9KebdeHihg==",
+      "type": "package",
+      "path": "weather-icons/2.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/weather-icons-wind.css",
+        "content/Content/weather-icons-wind.min.css",
+        "content/Content/weather-icons.css",
+        "content/Content/weather-icons.min.css",
+        "content/fonts/weathericons-regular-webfont.eot",
+        "content/fonts/weathericons-regular-webfont.svg",
+        "content/fonts/weathericons-regular-webfont.ttf",
+        "content/fonts/weathericons-regular-webfont.woff",
+        "content/fonts/weathericons-regular-webfont.woff2",
+        "weather-icons.2.0.10.nupkg.sha512",
+        "weather-icons.nuspec"
+      ]
+    },
+    "WeatherNet/2.1.0": {
+      "sha512": "FWgx2FPYaLIbZkiADwfhNc9l+aUbWCEecqZB0O71JxPE0CbfeNbrD0RH10quTJYxEyBjBpgpkYzeK2RnWVBk9w==",
+      "type": "package",
+      "path": "weathernet/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Newtonsoft.Json.dll",
+        "lib/WeatherNet.dll",
+        "weathernet.2.1.0.nupkg.sha512",
+        "weathernet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "WeatherNet >= 2.1.0",
+      "weather-icons >= 2.0.10"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Андрей\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Андрей\\source\\repos\\ControlWork\\ControlWork\\ControlWork.csproj",
+      "projectName": "ControlWork",
+      "projectPath": "C:\\Users\\Андрей\\source\\repos\\ControlWork\\ControlWork\\ControlWork.csproj",
+      "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Андрей\\source\\repos\\ControlWork\\ControlWork\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "WeatherNet": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "weather-icons": {
+            "target": "Package",
+            "version": "[2.0.10, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"WeatherNet 2.1.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "WeatherNet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

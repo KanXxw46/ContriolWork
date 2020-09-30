@@ -1,0 +1,5 @@
+C:\Users\Андрей\source\repos\ControlWork\ControlWork\obj\Debug\netcoreapp3.1\ControlWork.csprojAssemblyReference.cache
+C:\Users\Андрей\source\repos\ControlWork\ControlWork\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Андрей\source\repos\ControlWork\ControlWork\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Андрей\source\repos\ControlWork\ControlWork\obj\Debug\netcoreapp3.1\ControlWork_MarkupCompile.cache
+C:\Users\Андрей\source\repos\ControlWork\ControlWork\obj\Debug\netcoreapp3.1\ControlWork_MarkupCompile.lref

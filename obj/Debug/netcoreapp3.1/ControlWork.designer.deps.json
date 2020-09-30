@@ -1,0 +1,40 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "weather-icons/2.0.10": {},
+      "WeatherNet/2.1.0": {
+        "runtime": {
+          "lib/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "5.0.8.16617"
+          },
+          "lib/WeatherNet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "weather-icons/2.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cNh++85qP5pDvY5T7ijtBaCbtBtPtQBZRc4savoaFY3V4CvLYEEJgMh9Z6AKpUIozchhpOmdtmJK9KebdeHihg==",
+      "path": "weather-icons/2.0.10",
+      "hashPath": "weather-icons.2.0.10.nupkg.sha512"
+    },
+    "WeatherNet/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FWgx2FPYaLIbZkiADwfhNc9l+aUbWCEecqZB0O71JxPE0CbfeNbrD0RH10quTJYxEyBjBpgpkYzeK2RnWVBk9w==",
+      "path": "weathernet/2.1.0",
+      "hashPath": "weathernet.2.1.0.nupkg.sha512"
+    }
+  }
+}
